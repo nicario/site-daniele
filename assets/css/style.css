@@ -1,0 +1,168 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+
+}
+
+.img__header {
+    width: 60px;
+}
+
+.nav__header {
+    margin: 20px 0 30px 0px;
+}
+
+.home__header,
+.projetos__header,
+.contato__header {
+    margin: 10px;
+}
+
+.img__main {
+    width: 100%;
+    height: calc(100vh + 50px);
+}
+
+.paragrafo__main {
+    display: inline;
+    color: rgb(87, 38, 15);
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    bottom: calc(50vh);
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    margin-top: 40%;
+}
+
+.secao__main-2 {
+    background-color: rgb(226, 168, 43);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.ul__secao-2 {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100vh + 100px);
+    background-color: rgb(226, 168, 43);
+    margin: 0;
+}
+
+.li__secao-2 {
+    background-color: rgb(255, 255, 255);
+    margin: 5px 0 10px 80px;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+
+}
+
+.img2__secao-2 {
+    width: 100%;
+}
+
+.img__secao-2 {
+    width: 40%;
+    height: 50vh;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 100%;
+}
+
+.a__secao-2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragrafo__secao-2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+.titulo__secao-2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin: 0 0;
+    padding: 10px;
+    background-color: rgb(223, 221, 221);
+}
+
+.div__form {
+    background-color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.div__form3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.div__form3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.div__form-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.p__div {
+    text-align: center;
+    margin: auto;
+}
+
+.div__form1 {
+    margin: 10px;
+}
+
+.button__div {
+    margin: 10px;
+    background-color: rgb(226, 168, 43);
+    border: none;
+    padding: 10px 30px;
+    color: white;
+}
